@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Ambient Dashboard",
-  "version": "0.1.0",
-  "description": "A calm new-tab dashboard with Google Tasks, notes, shortcuts, search, and themes.",
+  "version": "0.2.0",
+  "description": "A glassy new-tab dashboard with real Google Tasks, ambient sounds, focus timer, notes, search, and themes.",
   "permissions": ["storage", "identity"],
   "host_permissions": ["https://tasks.googleapis.com/*"],
   "chrome_url_overrides": {
