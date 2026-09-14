@@ -1,0 +1,19 @@
+.page-bg {
+  background-image:
+    linear-gradient(rgba(225,235,249,.40), rgba(205,219,238,.52)),
+    url("https://images.unsplash.com/photo-1755160049899-2a670d6f1c19?auto=format&fit=crop&q=82&w=2400");
+  background-size: cover;
+  background-position: center;
+}
+body.dark .page-bg {
+  background-image:
+    linear-gradient(rgba(8,15,27,.62), rgba(9,17,29,.72)),
+    url("https://images.unsplash.com/photo-1755160049899-2a670d6f1c19?auto=format&fit=crop&q=78&w=2400");
+}
+.now-playing {
+  background-image:
+    linear-gradient(90deg, rgba(12,22,37,.72), rgba(14,25,39,.22) 65%, rgba(8,13,22,.18)),
+    url("https://images.unsplash.com/photo-1756625080821-a9081b8e9eb6?auto=format&fit=crop&q=84&w=1800") !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
