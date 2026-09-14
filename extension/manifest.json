@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Ambient Dashboard",
+  "version": "0.1.0",
+  "description": "A calm new-tab dashboard with Google Tasks, notes, shortcuts, search, and themes.",
+  "permissions": ["storage", "identity"],
+  "host_permissions": ["https://tasks.googleapis.com/*"],
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  }
+}
